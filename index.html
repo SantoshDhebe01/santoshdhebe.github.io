@@ -1,11 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    body {
+        background-color: rgb(36, 92, 142);
+        margin: 0%;
+        padding: 0%;
+    }
+
+    .navigation-bar {
+        background-color: lavender;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+       
+
+
+
+    }
+
+    .navigation-bar ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navigation-bar ul li {
+        list-style: none;
+        padding: 0 24px;
+
+    }
+
+    .navigation-bar ul li a{
+        text-decoration: none;
+        color: black;
+    }
+
+     .navigation-bar ul li a:hover{
+       
+        color: red;
+       
+        border-radius: 16px;
+
+     }
+    .navbar-left {
+
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.8rem
+    }
+
+    .section {
+        margin-top: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+
+
+
+    .section-left {
+        justify-content: center;
+
+        display: flex;
+        font-size: 2.5rem;
+        height: 140px;
+        width: 40%;
+    }
+
+    .section-right {
+
+        justify-content: center;
+        height: 300px;
+        width: 50%;
+
+    }
+
+    .section-right img {
+        height: 100%;
+        width: 70%;
+    }
+
+    .section1{
+        margin-top: 15%;
+    margin-left: 30px;
+    font-size: 2rem;
+
+    }
+</style>
+
 <body>
-    <h1>Hello, World!</h1>
+    <nav class="navigation-bar">
+        <div class="navbar-left"> Santosh's Portfolio </div>
+        <div class="navbar-right">
+            <ul>
+                <li><a href="">Home</a></li>
+               <li><a href="">Services</a></li>
+               <li><a href="">Contact me</a></li>
+               <li><a href="">Project</a></li>
+               <li><a href="">Services</a></li>
+               
+            </ul>
+        </div>
+    </nav>
+    <div class="section">
+        <div class="section-left">
+            Hi,CSE sophomore <br>
+            passionate about low-level programming</div>
+        
+        <div class="section-right"><img src="dev.png.png" alt=""></div>
+
+
+    </div>
+
+   <div class="section1" > My Skills </div>
+
+   <div>HTML</div>
+   
 </body>
 </html>
+
