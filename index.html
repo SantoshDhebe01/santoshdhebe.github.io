@@ -8,18 +8,28 @@
 </head>
 <style>
     body {
-        background-color: rgb(36, 92, 142);
+
+        background-color: #FFF8DF;
+
         margin: 0%;
         padding: 0%;
     }
 
+
+     &::-webkit-scrollbar {
+      display: none;
+    }
+
     .navigation-bar {
-        background-color: lavender;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        background-color: rgb(56, 3, 56);
         display: flex;
         justify-content: center;
         align-items: center;
         justify-content: space-around;
-       
+
+
 
 
 
@@ -34,27 +44,31 @@
     .navigation-bar ul li {
         list-style: none;
         padding: 0 24px;
+        font-size: 1rem;
 
     }
 
-    .navigation-bar ul li a{
+    .navigation-bar ul li a {
         text-decoration: none;
-        color: black;
+        color:   #FFF8DF;
     }
 
-     .navigation-bar ul li a:hover{
-       
+    .navigation-bar ul li a:hover {
+
         color: red;
-       
+
         border-radius: 16px;
 
-     }
+    }
+
     .navbar-left {
 
+        color: #FFF8DF;
         font-family: "Bebas Neue", sans-serif;
-        font-weight: 400;
         font-style: normal;
-        font-size: 1.8rem
+        font-size: 2rem;
+        font-weight: bold;
+
     }
 
     .section {
@@ -70,7 +84,7 @@
 
     .section-left {
         justify-content: center;
-
+        color:rgb(56, 3, 56);
         display: flex;
         font-size: 2.5rem;
         height: 140px;
@@ -87,14 +101,79 @@
 
     .section-right img {
         height: 100%;
-        width: 70%;
+        width: 63%;
     }
 
-    .section1{
+    .section1 {
         margin-top: 15%;
-    margin-left: 30px;
-    font-size: 2rem;
+        margin-left: 30px;
+        padding-bottom: 30px;
+        font-size: 2rem;
+        color:rgb(56, 3, 56);
+        font-weight: bold;
 
+    }
+
+    .section2 {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+
+    .cnt1 {
+        background-color: rgb(56, 3, 56);
+        color: #FFF8DF;
+        border-radius: 12px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+
+    }
+
+
+
+    .cnt2 {
+        color: #FFF8DF;
+        border-radius: 12px;
+        background-color:rgb(56, 3, 56);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .cnt3 {
+        color: #FFF8DF;
+        border-radius: 12px;
+        background-color:rgb(56, 3, 56);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .cnt4 {
+        color: #FFF8DF;
+        border-radius: 12px;
+        background-color:rgb(56, 3, 56);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .ft {
+        color: #FFF8DF;
+        background-color: rgb(56, 3, 56) ;
+        margin-top: 200px;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
     }
 </style>
 
@@ -104,11 +183,11 @@
         <div class="navbar-right">
             <ul>
                 <li><a href="">Home</a></li>
-               <li><a href="">Services</a></li>
-               <li><a href="">Contact me</a></li>
-               <li><a href="">Project</a></li>
-               <li><a href="">Services</a></li>
-               
+                <li><a href="about.html">About me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contactme.html">Contact me</a></li>
+                <li><a href="services.html">Services</a></li>
+
             </ul>
         </div>
     </nav>
@@ -116,16 +195,30 @@
         <div class="section-left">
             Hi,CSE sophomore <br>
             passionate about low-level programming</div>
-        
+
         <div class="section-right"><img src="dev.png.png" alt=""></div>
 
 
     </div>
 
-   <div class="section1" > My Skills </div>
+    <div class="section1"> My Skills </div>
+    <div class="section2">
 
-   <div>HTML</div>
-   
+        <div class="cnt1"> HTML</div>
+
+        <div class="cnt2">CSS</div>
+
+        <div class="cnt3">PYTHON</div>
+
+        <div class="cnt4">MYSQL</div>
+
+    </div>
+
+
+
+    <footer class="ft">
+        <p> © 2026 | All rights reserved</p>
+    </footer>
 </body>
-</html>
 
+</html>
